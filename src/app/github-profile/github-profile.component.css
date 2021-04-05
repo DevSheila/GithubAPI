@@ -1,0 +1,44 @@
+
+
+.profile-container-1{
+    border-radius: 10px;
+    padding: 15px 25px;
+    position: relative;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 0px 30px 40px -2px #101011;
+}
+.viewAccount {
+    background-color: black;
+    border: 3px solid white;
+}
+.viewAccount:hover{
+    z-index: 10;
+    box-shadow: 5px 5px 10px -2px white;
+}
+#viewAccount {
+    color:white;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+#viewAccount:hover{
+    text-decoration: none;
+    
+}
+
+
+
+
+ table{
+     outline:0;
+     border:0;
+ }
+ td{
+     font-size: 1rem;
+ }
+
+ svg{
+    height:2rem ;
+    width: 2rem;
+ }
