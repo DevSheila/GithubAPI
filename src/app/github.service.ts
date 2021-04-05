@@ -19,7 +19,7 @@ export class GithubService {
 
     return new Promise((resolve, reject) => {
       let apiURL = `https://api.github.com/users/${searchQuery}?access_token=${environment.ApiKey}`;
-      
+
       this.http.get(apiURL)
       .toPromise()
       .then(
@@ -37,4 +37,24 @@ export class GithubService {
     });
 
 }
+public getRepositories(searchQuery:String){
+  return new Promise((resolve, reject) => {
+    let apiURL = `https://api.github.com/users/${searchQuery}/repos?access_token=${environment.ApiKey}`;
+    this.http.get(apiURL)
+    .toPromise()
+    .then(
+        (response:any) => {
+          this.userRepositories= response; 
+          console.log(response);
+          resolve(response);
+        },
+        (error) => {
+                console.log(error);
+                reject();
+              }
+
+      );
+  });
+}
+
 }
