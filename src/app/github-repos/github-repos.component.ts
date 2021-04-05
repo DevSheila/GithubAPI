@@ -24,6 +24,7 @@ export class GithubReposComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.searchRepositories('philipplackner')
   }
 
 }
