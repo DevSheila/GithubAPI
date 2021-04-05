@@ -9,5 +9,9 @@ import {Repositories} from './class/repositories'
 })
 export class GithubService {
 
-  constructor() { }
+  userProfile = new User(0,0,0,"","","","","",new Date);
+  userRepositories = new Repositories(0,0,"","","","",new Date);
+
+  constructor(private http :HttpClient) {
+   }
 }
