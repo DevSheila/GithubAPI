@@ -9,7 +9,12 @@ import{ Repositories} from '../class/repositories'
 })
 export class GithubReposComponent implements OnInit {
   userRepositories :any;
+  // userRepositories: Repositories[] =[];
+  name:any;
+
   constructor(public githubService:GithubService) { }
+
+ 
 
   searchRepositories(searchName: any ){
     console.log(searchName)
