@@ -27,6 +27,7 @@ export class GithubProfileComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.searchUser('philipplackner')
   }
 
 }
