@@ -8,8 +8,20 @@ import{ Repositories} from '../class/repositories'
   styleUrls: ['./github-repos.component.css']
 })
 export class GithubReposComponent implements OnInit {
+  userRepositories :any;
+  constructor(public githubService:GithubService) { }
 
-  constructor() { }
+  searchRepositories(searchName: any ){
+    console.log(searchName)
+    this.githubService.getRepositories(searchName).then((response :any)=>{
+        this.userRepositories= this.githubService.userRepositories;
+       
+        console.log(this.userRepositories);
+      },
+      (error)=>{
+        console.log(error)
+      });
+  }
 
   ngOnInit(): void {
   }
