@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
-
+import { Component, Input, OnInit } from '@angular/core';
+import  {GithubService} from '../github.service'
+import{ User} from '../class/user'
 @Component({
   selector: 'app-github-profile',
   templateUrl: './github-profile.component.html',
