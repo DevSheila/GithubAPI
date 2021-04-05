@@ -1,0 +1,54 @@
+table{
+    font-size: larger;
+ }
+.watch, .fork{
+    margin-right:2rem;
+    background-color:black;
+    padding:0.5rem;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+.fa-eye, .fa-code-branch{
+margin-right:0.5rem;
+}
+
+.viewAccount {
+    background-color: black;
+    border: 3px solid white;
+}
+/* white */
+.viewAccount:hover{
+    z-index: 10;
+    box-shadow: 5px 5px 10px -2px white;
+}
+#viewAccount {
+    color:white;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+#viewAccount:hover{
+    text-decoration: none;
+    
+} 
+
+.viewMore{
+ color:white;
+}
+.viewMore:hover{
+    color:white;
+    font-weight: bold;
+    text-decoration :none;
+}
+.profile-container-1{
+    /* border-radius: 2%; */
+    border-radius: 10px;
+    padding: 15px 25px;
+    position: relative;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 0px 30px 40px -2px #101011;
+}
+
+
+ 
