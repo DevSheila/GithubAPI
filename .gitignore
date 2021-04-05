@@ -10,8 +10,7 @@
 # dependencies
 /node_modules
 
-#Environments
-/src/environments
+
 
 # profiling files
 chrome-profiler-events*.json
@@ -47,3 +46,5 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+#Environments
+/src/environments
