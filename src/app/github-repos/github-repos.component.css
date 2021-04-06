@@ -35,9 +35,12 @@ margin-right:0.5rem;
  color:white;
 }
 .viewMore:hover{
-    color:white;
+    color: black;
     font-weight: bold;
     text-decoration :none;
+}
+.moreSpan:hover{
+    color: black;
 }
 .profile-container-1{
     border-radius: 10px;
