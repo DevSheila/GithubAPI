@@ -17,7 +17,7 @@ This is an application that allows you to look up github userprofile and reposit
 * [Licence](#Licence)
 
 ## Demo
-Here is a working live demo :    
+Here is a working live demo :    https://github-api-beta.vercel.app/
 
 
 ## Technologies
