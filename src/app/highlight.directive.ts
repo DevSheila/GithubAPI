@@ -19,7 +19,7 @@ export class HighlightDirective {
   private textDeco(action:any){
     this.elem.nativeElement.style.border=action;
   }
-  // parentNode.parentNode.parentNode
+
  
 
 }

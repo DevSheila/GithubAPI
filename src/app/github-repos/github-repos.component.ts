@@ -9,7 +9,6 @@ import{ Repositories} from '../class/repositories'
 })
 export class GithubReposComponent implements OnInit {
   userRepositories :any;
-  // userRepositories: Repositories[] =[];
   name:any;
 
   constructor(public githubService:GithubService) { }
@@ -29,7 +28,6 @@ export class GithubReposComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.searchRepositories('philipplackner')
   }
 
 }

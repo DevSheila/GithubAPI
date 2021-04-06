@@ -10,54 +10,41 @@
                     <div class="d-flex justify-content-center ">
                         <img src="{{userProfile.avatar_url}}" class="img-fluid rounded-circle" alt="">
                     </div>
-
-                    <div class="d-flex justify-content-center  mt-3">
-                        <button class="btn  btn-lg viewAccount bg-dark "><a routerLink="/repositories"  id="viewAccount">View Repositories</a></button>
-                    </div>
-                
                 </div>
-                <div class="col-lg-8 col-md-12 col-12 mb-5">   
-                
-                
-
+                <div class="col-lg-8 col-md-12 col-12 mb-5"> 
                         <table class="table table-dark">
                             <thead>
-                            <tr>
-                                
-                                <th scope="col" class="">
-                                    <h5>
-                                        User Name :{{userProfile.login}}
-                                    </h5>
-                                </th>
-                            
-                            </tr>
+                                <tr>
+                                    <th scope="col" class="">
+                                        <h5>User Name :{{userProfile.login}} </h5>
+                                    </th>
+                                </tr>
                             </thead>
+
                             <tbody>
-                            
                                 <tr>
                                     <td class=" left-align">
                                       
-                                        <h5><span>  <svg class="icon mr-2">
-                                            <use xlink:href="#group"></use>
-                                        </svg></span>
+                                        <h5>
+                                            <span>  
+                                                <svg class="icon mr-2">
+                                                <use xlink:href="#group"></use>
+                                                </svg>
+                                            </span>
 
                                         Followers :{{userProfile.followers}}
-
                                         </h5>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="">
-                                        
+                                    <td class=""> 
                                         <h5><span>
                                             <svg class="icon mr-2">
                                                 <use xlink:href="#team"></use>
                                             </svg>
                                         </span>
                                         Following :{{userProfile.following}}
-                                    
-                                    </h5>
-
+                                        </h5>
                                     </td>
                                 </tr>
                                 <tr>
@@ -69,9 +56,8 @@
                                                 </svg>
                                             </span>
                                          Repositories :{{userProfile.public_repos}}
-
                                         </h5>
-                                </td>
+                                    </td>
                                 </tr>
                             
                                 <tr>
@@ -82,34 +68,23 @@
                                                     <use xlink:href="#github-4"></use>
                                                 </svg>
                                             </span>
-                                     <a href="{{userProfile.html_url}}">{{userProfile.html_url}}</a>
+                                            <a href="{{userProfile.html_url}}">{{userProfile.html_url}}</a>
 
                                         </h5>  
-                                      
-                                </td>
+                                    </td>
                             
                             </tbody>
-                        </table>
-                
-            </div> 
-            </div>
+                        </table>  
+        </div> 
+    </div>
            
-       </div>
+        </div>
         <div class="col-lg-1 col-md-1 col-1"></div>
 
     </div>
-   </div> 
+</div> 
 
- <!-- // url->link to profile
-                // login->username
-                // htm_url->link to profile
-                // location
-                // public_repos
-                // followers
-                // following
-                // avatar_url
-                // created_at ->>>date acccount was created -->
-   <!-- <<<<<<<<<<<<<<<<<<<<<< -->
+
 
         
      

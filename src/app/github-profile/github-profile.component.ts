@@ -19,7 +19,6 @@ export class GithubProfileComponent implements OnInit {
     console.log(searchName)
     this.githubService.getProfile(searchName).then((response :any)=>{
         this.userProfile = this.githubService.userProfile;
-        // this.userProfile = response;
        
         console.log(this.userProfile);
       },
