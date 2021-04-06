@@ -1,7 +1,7 @@
 
-<app-github-app (searchOutput)="searchRepositories($event)"></app-github-app>
+<app-github-app (searchOutput)="searchRepositories($event)" ></app-github-app>
 
-<div class="container mt-5 ">
+<div class="container mt-5 "  >
   
     <div class="row">
         <div class="col-lg-1 col-md-1 col-1"></div>
@@ -25,15 +25,16 @@
                            
                             <tbody *ngFor="let repo of userRepositories">
                             
-                                <tr>
+                                <tr appHighlight>
                                     <td class="">
                                        <h6 class="text-uppercase">
                                           Title :{{repo.name}}
                                         <span class="float-right"><a href="{{repo.html_url}}" class="m-2 viewMore"> More</a> <i class="fas fa-angle-double-right"></i></span><br>
                                        </h6>
-                                       <p>Description: {{repo.description}}</p>
+                                       <p>Description: {{repo.description | uppercase}}</p>
                                        <p>Language :{{repo.language}}</p>
                                        <p>Date Created :{{repo.created_at}}</p>
+                                       <p>Date Created :{{repo.created_at | date}}</p>
                                         <p>
                                          
                                             <span class="watch "><i class="far fa-eye"></i> {{repo.watchers_count}}</span>
