@@ -9,15 +9,15 @@ export class HighlightDirective {
   }
  
   @HostListener("mouseenter")onMouseEnter(){
-    this.textDeco("black")
+    this.textDeco("2px solid rgb(179, 174, 174)")
   }
 
   @HostListener("mouseleave")onMouseLeave(){
     this.textDeco("")
   }
  
-  private textDeco(action:string){
-    this.elem.nativeElement.style.background=action;
+  private textDeco(action:any){
+    this.elem.nativeElement.style.border=action;
   }
   // parentNode.parentNode.parentNode
  

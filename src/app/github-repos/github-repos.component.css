@@ -48,7 +48,12 @@ margin-right:0.5rem;
     width: 100%;
     z-index: 10;
     box-shadow: 0px 30px 40px -2px #101011;
-}
 
+}
+tr:hover{
+    /* background-color: rgb(41, 41, 43); */
+    box-shadow: 0px 10px 20px -2px rgb(179, 174, 174);
+    z-index: 10;
+}
 
  
