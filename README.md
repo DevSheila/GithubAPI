@@ -2,7 +2,7 @@
 ### Author- Sheila Sharon Wambui Karani.
 
 ## Description
-This is an application that allows you to look up github userprofile and repositories using username only.
+This is an Angular CLI application that allows users to look up Github users' profile and repositories using one's username only.
 ## Table of contents
 * [Demo](#demo)
 
@@ -17,7 +17,7 @@ This is an application that allows you to look up github userprofile and reposit
 * [Licence](#Licence)
 
 ## Demo
-Here is a working live demo :    
+Here is a working live demo :    https://github-api-beta.vercel.app/
 
 
 ## Technologies
@@ -27,6 +27,7 @@ Here is a working live demo :
 1. Bootstrap 4
 1. Typescript
 1. Angular
+1. Github API
 
 ## Known Bugs
 There are curently no known bugs.
@@ -47,9 +48,9 @@ $ git clone  https://github.com/DevSheila/GithubAPI.git
 
 ```
 
-* Change Directory to AngularQuotesApp
+* Change Directory to GithubAPI
 ```
-$ cd AngularQuotesApp
+$ cd GithubAPI
 
 ```
 * Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
