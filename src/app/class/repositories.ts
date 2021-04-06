@@ -6,7 +6,7 @@ export class Repositories {
         public html_url:string,
         public description:string,
         public language:string,
-        public created_at:Date){
+        public created_at: Date){
           
         }
 }

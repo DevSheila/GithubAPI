@@ -9,9 +9,9 @@ import { GithubAppComponent } from './github-app/github-app.component';
 import { GithubProfileComponent } from './github-profile/github-profile.component';
 import { GithubReposComponent } from './github-repos/github-repos.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { DatePipe } from './date.pipe';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { HighlightDirective } from './highlight.directive';
+import { DatePipePipe } from './date-pipe.pipe';
 
 @NgModule({
   declarations: [
@@ -20,9 +20,9 @@ import { HighlightDirective } from './highlight.directive';
     GithubProfileComponent,
     GithubReposComponent,
     NavbarComponent,
-    DatePipe,
     NotFoundComponent,
-    HighlightDirective
+    HighlightDirective,
+    DatePipePipe
   ],
   imports: [
     BrowserModule,
